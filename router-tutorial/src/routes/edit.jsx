@@ -3,8 +3,6 @@ import { Form, useLoaderData } from "react-router-dom";
 export default function EditContact() {
   const { contact } = useLoaderData();
 
-  console.log(contact);
-
   return (
     <Form method="post" id="contact-form">
       <p>
